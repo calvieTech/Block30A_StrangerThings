@@ -1,0 +1,67 @@
+.loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.posts__container {
+	display: flex;
+	flex-direction: column;
+}
+
+.posts__searchContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 28px;
+	margin-bottom: 14px;
+}
+.posts__searchContainer label {
+	border-bottom: 2px solid white;
+}
+
+#posts__search {
+	width: 360px;
+	margin: 0 7px;
+}
+
+.posts__content {
+	margin-top: 21px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 21px;
+}
+
+.posts__card {
+	background-color: white;
+	color: darkblue;
+	min-height: 500px;
+	width: 350px;
+	flex-grow: 1;
+	margin: 0 28px;
+	padding: 0 21px;
+}
+
+.posts__card h1 {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+.posts__card h3 {
+	text-align: center;
+}
+
+.posts__card h4 {
+	text-align: right;
+}
+
+.posts__card h6 {
+	text-align: right;
+}
+
+.posts__seeMore {
+	display: flex;
+	justify-content: flex-end;
+}

@@ -1,0 +1,26 @@
+.navbar__container {
+	height: 90px;
+	width: 100vw;
+	background-color: navy;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navbar__header {
+	display: flex;
+	font-size: 28px;
+}
+
+.navbar__list {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 28px;
+}
+
+.navbar__list {
+	color: white;
+	cursor: pointer;
+}
